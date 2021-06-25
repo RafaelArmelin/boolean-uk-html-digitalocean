@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+img{
+    /* width: 100%; */
+    object-fit: cover;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-list ul {
+    height: 100%;
+
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1rem;
+}
+.nav-list a,
+.nav-list a:visited {
+    text-decoration: none;
+
+    color: inherit;
+}
+.nav-list a:hover {
+    text-decoration: underline;
+}
+.center {
+    max-width: 900px;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+.three-column-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.align-items-center{
+    display: grid;
+    align-items: center;
+}
+.main-header{
+    height: 56px;
+}
+.navigation-wrapper{
+    height: 100%;
+}
+.logo{
+    width: 150px;
+}
+.button{
+    border-radius: 0.5rem;
+    padding: 0.25rem 0.25rem;
+}
+.button-blue{
+    border: 1px solid blue;
+}
+.two-column-grid__three-and-two {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 1rem;
+  }
+.bg-blue{
+    background-color: rgb(21, 91, 243);
+}
+.hero-section{
+    padding: 2rem 0;
+}
+
+.rounded-edge{
+    border-radius: 0.5rem;
+}
+.bg-white{
+    background-color: white;
+}
+
+.signup-form input,
+.signup-form button{
+    width: 100%;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+form h3{
+    color: #2196f3;
+    text-align: center;
+}
+.bt-create-acc{
+    color: white;
+    background-color: #2196f3;
+    border-radius: 0.2rem;
+    border-color: #2196f3;
+}
+form p{
+    font-size: 0.7rem;
+    text-align: center;
+}
+.column-one{
+    color: white;
+}
+.column-one h1{
+    font-size: 3rem;
+}
+.logos-section{
+    text-align: center;
+    color: darkgray;
+    font-size: 1rem;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.inline-logos{
+    grid-auto-flow: row;
+    list-style: none;
+    text-align: center;
+}
+.inline-logos img{
+    width: 100px;
+    justify-content: center;
+}
+/* .logos-column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+} */
+.test{
+    display: inline;
+    text-align: center;
+
+}
